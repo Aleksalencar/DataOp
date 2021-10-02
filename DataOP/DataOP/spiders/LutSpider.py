@@ -5,7 +5,7 @@ import scrapy
 class LutSpider(scrapy.Spider):
     name = "lut"
     start_urls = [
-        'https://www.lut.com.br/todos-leiloes-online/0/2/3/127'
+        'https://www.lut.com.br/todos-leiloes-online/0/1/2'
     ]
 
     # Parse link of all auctions
